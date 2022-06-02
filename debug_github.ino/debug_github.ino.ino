@@ -18,9 +18,9 @@ void loop() {
         Serial.println("抱歉，没有存档");
         break;
       case "退出游戏"
-       Serial.println("欢迎下次再来！");‮
-        exit_status=1;
-        break;
+       Serial.println("欢迎下次再来！");
+       exit_status=1;
+       break;
       default:
         Serial.println("输入错误！");
     }
